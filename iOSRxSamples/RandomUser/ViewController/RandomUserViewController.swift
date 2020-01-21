@@ -53,7 +53,6 @@ class RandomUserViewController: UIViewController {
     func bind() {
         // Random User API call
         self.button.rx.tap.asDriver().drive(self.viewModel.inputs.fetchTrigger).disposed(by: rx.disposeBag)
-        //self.viewModel.inputs.fetchTrigger.onNext(())
 
         // データを取得
         self.viewModel.outputs.user.asObservable().subscribe(onNext: { [weak self] in
