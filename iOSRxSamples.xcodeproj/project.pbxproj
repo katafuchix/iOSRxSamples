@@ -29,6 +29,11 @@
 		315D888A23D4CEB3000D545E /* YahooImageSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D888923D4CEB3000D545E /* YahooImageSearchViewModel.swift */; };
 		315D888C23D4CEF8000D545E /* Img.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D888B23D4CEF8000D545E /* Img.swift */; };
 		315D888E23D4CF35000D545E /* ImageItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D888D23D4CF35000D545E /* ImageItemCell.swift */; };
+		318FE97C23D7525800A49138 /* RandomUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318FE97B23D7525800A49138 /* RandomUser.storyboard */; };
+		318FE97E23D7527000A49138 /* RandomUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FE97D23D7527000A49138 /* RandomUserViewController.swift */; };
+		318FE98023D7532800A49138 /* Session+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FE97F23D7532800A49138 /* Session+Extension.swift */; };
+		318FE98223D7538800A49138 /* RandomUserAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FE98123D7538800A49138 /* RandomUserAPIModel.swift */; };
+		318FE98423D753E900A49138 /* RandomUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318FE98323D753E900A49138 /* RandomUserViewModel.swift */; };
 		85A87754A1BCE82E78E67D04 /* Pods_iOSRxSamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3256A5F5E626CBC400B4FB7 /* Pods_iOSRxSamples.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +62,11 @@
 		315D888923D4CEB3000D545E /* YahooImageSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooImageSearchViewModel.swift; sourceTree = "<group>"; };
 		315D888B23D4CEF8000D545E /* Img.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Img.swift; sourceTree = "<group>"; };
 		315D888D23D4CF35000D545E /* ImageItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItemCell.swift; sourceTree = "<group>"; };
+		318FE97B23D7525800A49138 /* RandomUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RandomUser.storyboard; sourceTree = "<group>"; };
+		318FE97D23D7527000A49138 /* RandomUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserViewController.swift; sourceTree = "<group>"; };
+		318FE97F23D7532800A49138 /* Session+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+Extension.swift"; sourceTree = "<group>"; };
+		318FE98123D7538800A49138 /* RandomUserAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserAPIModel.swift; sourceTree = "<group>"; };
+		318FE98323D753E900A49138 /* RandomUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUserViewModel.swift; sourceTree = "<group>"; };
 		D3256A5F5E626CBC400B4FB7 /* Pods_iOSRxSamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSRxSamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C6014DB47CABD6315CC473 /* Pods-iOSRxSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRxSamples.release.xcconfig"; path = "Target Support Files/Pods-iOSRxSamples/Pods-iOSRxSamples.release.xcconfig"; sourceTree = "<group>"; };
 		E3BE480A095FF24BBFFD42BA /* Pods-iOSRxSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRxSamples.debug.xcconfig"; path = "Target Support Files/Pods-iOSRxSamples/Pods-iOSRxSamples.debug.xcconfig"; sourceTree = "<group>"; };
@@ -143,6 +153,7 @@
 				315D887223D4C364000D545E /* LoginForm */,
 				315D888123D4CDB7000D545E /* YahooImageSearch */,
 				314050DD23D733BA00818C8D /* FirebaseSample */,
+				318FE97623D7520000A49138 /* RandomUser */,
 				315D885E23D4C2AA000D545E /* AppDelegate.swift */,
 				315D886023D4C2AA000D545E /* SceneDelegate.swift */,
 				315D886223D4C2AA000D545E /* ViewController.swift */,
@@ -171,6 +182,7 @@
 			children = (
 				315D888623D4CE58000D545E /* Rx */,
 				315D887D23D4C695000D545E /* UIViewController+Extension.swift */,
+				318FE97F23D7532800A49138 /* Session+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -193,6 +205,49 @@
 				315D888723D4CE66000D545E /* MBProgressHUD+Rx.swift */,
 			);
 			path = Rx;
+			sourceTree = "<group>";
+		};
+		318FE97623D7520000A49138 /* RandomUser */ = {
+			isa = PBXGroup;
+			children = (
+				318FE97723D7521C00A49138 /* View */,
+				318FE97823D7522C00A49138 /* ViewModel */,
+				318FE97A23D7524600A49138 /* Model */,
+				318FE97923D7523C00A49138 /* ViewController */,
+			);
+			path = RandomUser;
+			sourceTree = "<group>";
+		};
+		318FE97723D7521C00A49138 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				318FE97B23D7525800A49138 /* RandomUser.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		318FE97823D7522C00A49138 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				318FE98323D753E900A49138 /* RandomUserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		318FE97923D7523C00A49138 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				318FE97D23D7527000A49138 /* RandomUserViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		318FE97A23D7524600A49138 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				318FE98123D7538800A49138 /* RandomUserAPIModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DB3DC30E3B28D025D418C8C1 /* Frameworks */ = {
@@ -266,6 +321,7 @@
 			files = (
 				315D888323D4CDC8000D545E /* YahooImageSearch.storyboard in Resources */,
 				315D887423D4C376000D545E /* LoginForm.storyboard in Resources */,
+				318FE97C23D7525800A49138 /* RandomUser.storyboard in Resources */,
 				315D886B23D4C2AB000D545E /* LaunchScreen.storyboard in Resources */,
 				315D886823D4C2AB000D545E /* Assets.xcassets in Resources */,
 				315D886623D4C2AA000D545E /* Main.storyboard in Resources */,
@@ -341,8 +397,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				318FE97E23D7527000A49138 /* RandomUserViewController.swift in Sources */,
 				315D887623D4C404000D545E /* LoginFormViewController.swift in Sources */,
+				318FE98223D7538800A49138 /* RandomUserAPIModel.swift in Sources */,
 				315D888E23D4CF35000D545E /* ImageItemCell.swift in Sources */,
+				318FE98423D753E900A49138 /* RandomUserViewModel.swift in Sources */,
 				315D888023D4C7B6000D545E /* LoginButton.swift in Sources */,
 				315D886323D4C2AA000D545E /* ViewController.swift in Sources */,
 				314050DF23D7345B00818C8D /* RemoteConfigViewModel.swift in Sources */,
@@ -351,6 +410,7 @@
 				315D887923D4C4D8000D545E /* R.generated.swift in Sources */,
 				315D885F23D4C2AA000D545E /* AppDelegate.swift in Sources */,
 				314050E623D7378D00818C8D /* JsonMappable.swift in Sources */,
+				318FE98023D7532800A49138 /* Session+Extension.swift in Sources */,
 				315D887B23D4C587000D545E /* LoginFormViewModel.swift in Sources */,
 				314050E823D737D700818C8D /* typealias.swift in Sources */,
 				314050E323D7363600818C8D /* Item.swift in Sources */,
