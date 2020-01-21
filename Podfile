@@ -22,4 +22,11 @@ target 'iOSRxSamples' do
   pod 'Kanna'
   pod 'SKPhotoBrowser'
   pod 'IQKeyboardManagerSwift'
+  pod 'ObjectMapper'
+  pod 'SwiftyJSON'
+  
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/RemoteConfig'
+  pod 'RxFirebase/RemoteConfig'
 end
