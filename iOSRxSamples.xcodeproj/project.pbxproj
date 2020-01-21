@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,19 @@
 		315D886623D4C2AA000D545E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315D886423D4C2AA000D545E /* Main.storyboard */; };
 		315D886823D4C2AB000D545E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315D886723D4C2AB000D545E /* Assets.xcassets */; };
 		315D886B23D4C2AB000D545E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315D886923D4C2AB000D545E /* LaunchScreen.storyboard */; };
+		315D887423D4C376000D545E /* LoginForm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315D887323D4C376000D545E /* LoginForm.storyboard */; };
+		315D887623D4C404000D545E /* LoginFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D887523D4C404000D545E /* LoginFormViewController.swift */; };
+		315D887923D4C4D8000D545E /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D887823D4C4D8000D545E /* R.generated.swift */; };
+		315D887B23D4C587000D545E /* LoginFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D887A23D4C587000D545E /* LoginFormViewModel.swift */; };
+		315D887E23D4C695000D545E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D887D23D4C695000D545E /* UIViewController+Extension.swift */; };
+		315D888023D4C7B6000D545E /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D887F23D4C7B6000D545E /* LoginButton.swift */; };
+		315D888323D4CDC8000D545E /* YahooImageSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315D888223D4CDC8000D545E /* YahooImageSearch.storyboard */; };
+		315D888523D4CE06000D545E /* YahooImageSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D888423D4CE06000D545E /* YahooImageSearchViewController.swift */; };
+		315D888823D4CE66000D545E /* MBProgressHUD+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D888723D4CE66000D545E /* MBProgressHUD+Rx.swift */; };
+		315D888A23D4CEB3000D545E /* YahooImageSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D888923D4CEB3000D545E /* YahooImageSearchViewModel.swift */; };
+		315D888C23D4CEF8000D545E /* Img.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D888B23D4CEF8000D545E /* Img.swift */; };
+		315D888E23D4CF35000D545E /* ImageItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315D888D23D4CF35000D545E /* ImageItemCell.swift */; };
+		85A87754A1BCE82E78E67D04 /* Pods_iOSRxSamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3256A5F5E626CBC400B4FB7 /* Pods_iOSRxSamples.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,21 @@
 		315D886723D4C2AB000D545E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		315D886A23D4C2AB000D545E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		315D886C23D4C2AB000D545E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315D887323D4C376000D545E /* LoginForm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginForm.storyboard; sourceTree = "<group>"; };
+		315D887523D4C404000D545E /* LoginFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewController.swift; sourceTree = "<group>"; };
+		315D887823D4C4D8000D545E /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		315D887A23D4C587000D545E /* LoginFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormViewModel.swift; sourceTree = "<group>"; };
+		315D887D23D4C695000D545E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		315D887F23D4C7B6000D545E /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		315D888223D4CDC8000D545E /* YahooImageSearch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = YahooImageSearch.storyboard; sourceTree = "<group>"; };
+		315D888423D4CE06000D545E /* YahooImageSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooImageSearchViewController.swift; sourceTree = "<group>"; };
+		315D888723D4CE66000D545E /* MBProgressHUD+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MBProgressHUD+Rx.swift"; sourceTree = "<group>"; };
+		315D888923D4CEB3000D545E /* YahooImageSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YahooImageSearchViewModel.swift; sourceTree = "<group>"; };
+		315D888B23D4CEF8000D545E /* Img.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Img.swift; sourceTree = "<group>"; };
+		315D888D23D4CF35000D545E /* ImageItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageItemCell.swift; sourceTree = "<group>"; };
+		D3256A5F5E626CBC400B4FB7 /* Pods_iOSRxSamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSRxSamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C6014DB47CABD6315CC473 /* Pods-iOSRxSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRxSamples.release.xcconfig"; path = "Target Support Files/Pods-iOSRxSamples/Pods-iOSRxSamples.release.xcconfig"; sourceTree = "<group>"; };
+		E3BE480A095FF24BBFFD42BA /* Pods-iOSRxSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSRxSamples.debug.xcconfig"; path = "Target Support Files/Pods-iOSRxSamples/Pods-iOSRxSamples.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85A87754A1BCE82E78E67D04 /* Pods_iOSRxSamples.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13C1FB8396A8A4766A88DC9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3BE480A095FF24BBFFD42BA /* Pods-iOSRxSamples.debug.xcconfig */,
+				E0C6014DB47CABD6315CC473 /* Pods-iOSRxSamples.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		315D885223D4C2AA000D545E = {
 			isa = PBXGroup;
 			children = (
 				315D885D23D4C2AA000D545E /* iOSRxSamples */,
 				315D885C23D4C2AA000D545E /* Products */,
+				13C1FB8396A8A4766A88DC9F /* Pods */,
+				DB3DC30E3B28D025D418C8C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +96,9 @@
 		315D885D23D4C2AA000D545E /* iOSRxSamples */ = {
 			isa = PBXGroup;
 			children = (
+				315D887C23D4C66F000D545E /* Extensions */,
+				315D887223D4C364000D545E /* LoginForm */,
+				315D888123D4CDB7000D545E /* YahooImageSearch */,
 				315D885E23D4C2AA000D545E /* AppDelegate.swift */,
 				315D886023D4C2AA000D545E /* SceneDelegate.swift */,
 				315D886223D4C2AA000D545E /* ViewController.swift */,
@@ -63,8 +106,57 @@
 				315D886723D4C2AB000D545E /* Assets.xcassets */,
 				315D886923D4C2AB000D545E /* LaunchScreen.storyboard */,
 				315D886C23D4C2AB000D545E /* Info.plist */,
+				315D887823D4C4D8000D545E /* R.generated.swift */,
 			);
 			path = iOSRxSamples;
+			sourceTree = "<group>";
+		};
+		315D887223D4C364000D545E /* LoginForm */ = {
+			isa = PBXGroup;
+			children = (
+				315D887323D4C376000D545E /* LoginForm.storyboard */,
+				315D887523D4C404000D545E /* LoginFormViewController.swift */,
+				315D887A23D4C587000D545E /* LoginFormViewModel.swift */,
+				315D887F23D4C7B6000D545E /* LoginButton.swift */,
+			);
+			path = LoginForm;
+			sourceTree = "<group>";
+		};
+		315D887C23D4C66F000D545E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				315D888623D4CE58000D545E /* Rx */,
+				315D887D23D4C695000D545E /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		315D888123D4CDB7000D545E /* YahooImageSearch */ = {
+			isa = PBXGroup;
+			children = (
+				315D888223D4CDC8000D545E /* YahooImageSearch.storyboard */,
+				315D888423D4CE06000D545E /* YahooImageSearchViewController.swift */,
+				315D888923D4CEB3000D545E /* YahooImageSearchViewModel.swift */,
+				315D888B23D4CEF8000D545E /* Img.swift */,
+				315D888D23D4CF35000D545E /* ImageItemCell.swift */,
+			);
+			path = YahooImageSearch;
+			sourceTree = "<group>";
+		};
+		315D888623D4CE58000D545E /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				315D888723D4CE66000D545E /* MBProgressHUD+Rx.swift */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		DB3DC30E3B28D025D418C8C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3256A5F5E626CBC400B4FB7 /* Pods_iOSRxSamples.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 315D886F23D4C2AB000D545E /* Build configuration list for PBXNativeTarget "iOSRxSamples" */;
 			buildPhases = (
+				813106FD3437E52F62A113F1 /* [CP] Check Pods Manifest.lock */,
+				315D887723D4C484000D545E /* Run Script */,
 				315D885723D4C2AA000D545E /* Sources */,
 				315D885823D4C2AA000D545E /* Frameworks */,
 				315D885923D4C2AA000D545E /* Resources */,
+				5981ABA8EF18F3BCB3A9A35E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +220,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315D888323D4CDC8000D545E /* YahooImageSearch.storyboard in Resources */,
+				315D887423D4C376000D545E /* LoginForm.storyboard in Resources */,
 				315D886B23D4C2AB000D545E /* LaunchScreen.storyboard in Resources */,
 				315D886823D4C2AB000D545E /* Assets.xcassets in Resources */,
 				315D886623D4C2AA000D545E /* Main.storyboard in Resources */,
@@ -133,14 +230,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		315D887723D4C484000D545E /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+		5981ABA8EF18F3BCB3A9A35E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSRxSamples/Pods-iOSRxSamples-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSRxSamples/Pods-iOSRxSamples-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSRxSamples/Pods-iOSRxSamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		813106FD3437E52F62A113F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSRxSamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		315D885723D4C2AA000D545E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315D887623D4C404000D545E /* LoginFormViewController.swift in Sources */,
+				315D888E23D4CF35000D545E /* ImageItemCell.swift in Sources */,
+				315D888023D4C7B6000D545E /* LoginButton.swift in Sources */,
 				315D886323D4C2AA000D545E /* ViewController.swift in Sources */,
+				315D888823D4CE66000D545E /* MBProgressHUD+Rx.swift in Sources */,
+				315D888523D4CE06000D545E /* YahooImageSearchViewController.swift in Sources */,
+				315D887923D4C4D8000D545E /* R.generated.swift in Sources */,
 				315D885F23D4C2AA000D545E /* AppDelegate.swift in Sources */,
+				315D887B23D4C587000D545E /* LoginFormViewModel.swift in Sources */,
+				315D888A23D4CEB3000D545E /* YahooImageSearchViewModel.swift in Sources */,
+				315D888C23D4CEF8000D545E /* Img.swift in Sources */,
 				315D886123D4C2AA000D545E /* SceneDelegate.swift in Sources */,
+				315D887E23D4C695000D545E /* UIViewController+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +451,7 @@
 		};
 		315D887023D4C2AB000D545E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3BE480A095FF24BBFFD42BA /* Pods-iOSRxSamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +470,7 @@
 		};
 		315D887123D4C2AB000D545E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C6014DB47CABD6315CC473 /* Pods-iOSRxSamples.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

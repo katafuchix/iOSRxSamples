@@ -7,14 +7,17 @@
 //
 
 import UIKit
+import XCGLogger
+import IQKeyboardManagerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        IQKeyboardManager.shared.enable = true
+        
         return true
     }
 
@@ -32,6 +35,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
-
 }
 
+let log: XCGLogger = {
+    let level: XCGLogger.Level = {
+        return .verbose
+    }()
+    let log = XCGLogger.default
+    log.setup(level: level,
+              showThreadName: true,
+              showLevel: true,
+              showFileNames: true,
+              showLineNumbers: true,
+              writeToFile: nil,
+              fileLevel: Optional.none)
+    return log
+}()

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hfX-3F-tMU">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Form Validaton Sample-->
+        <scene sceneID="Ahi-DZ-wXy">
+            <objects>
+                <viewController id="hfX-3F-tMU" customClass="LoginFormViewController" customModule="iOSRxSamples" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Esu-H8-XMq"/>
+                        <viewControllerLayoutGuide type="bottom" id="uNS-II-UYk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pr5-b6-buv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gn6-ku-uh1">
+                                <rect key="frame" x="40" y="428" width="334" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Mc6-9j-B4o"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgv-Kg-iFb" customClass="LoginButton" customModule="iOSRxSamples" customModuleProvider="target">
+                                <rect key="frame" x="40" y="540" width="334" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="fYb-7T-ZoG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="enableColor">
+                                        <color key="value" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="desableColor">
+                                        <color key="value" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rl4-Zy-O10">
+                                <rect key="frame" x="40" y="484" width="334" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="5BP-Fc-nlg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kgv-Kg-iFb" firstAttribute="top" secondItem="Rl4-Zy-O10" secondAttribute="bottom" constant="16" id="EQn-w8-Uee"/>
+                            <constraint firstAttribute="trailing" secondItem="kgv-Kg-iFb" secondAttribute="trailing" constant="40" id="GOp-i4-UjX"/>
+                            <constraint firstItem="Rl4-Zy-O10" firstAttribute="top" secondItem="gn6-ku-uh1" secondAttribute="bottom" constant="16" id="HDI-7e-UnV"/>
+                            <constraint firstAttribute="trailing" secondItem="gn6-ku-uh1" secondAttribute="trailing" constant="40" id="JvB-Dc-IXg"/>
+                            <constraint firstItem="gn6-ku-uh1" firstAttribute="leading" secondItem="pr5-b6-buv" secondAttribute="leading" constant="40" id="T9n-3X-a7b"/>
+                            <constraint firstItem="Rl4-Zy-O10" firstAttribute="leading" secondItem="pr5-b6-buv" secondAttribute="leading" constant="40" id="X2P-oT-r7W"/>
+                            <constraint firstItem="gn6-ku-uh1" firstAttribute="centerX" secondItem="pr5-b6-buv" secondAttribute="centerX" id="rYD-K0-fzV"/>
+                            <constraint firstItem="kgv-Kg-iFb" firstAttribute="leading" secondItem="pr5-b6-buv" secondAttribute="leading" constant="40" id="tS4-yw-nkR"/>
+                            <constraint firstAttribute="trailing" secondItem="Rl4-Zy-O10" secondAttribute="trailing" constant="40" id="vV6-Od-CFC"/>
+                            <constraint firstItem="gn6-ku-uh1" firstAttribute="centerY" secondItem="pr5-b6-buv" secondAttribute="centerY" id="vxv-dM-c9R"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FTz-jB-0Cg"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Login Form Validaton Sample" id="caC-nj-R6A"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="loginButton" destination="kgv-Kg-iFb" id="MVf-oH-f6c"/>
+                        <outlet property="passwordTextField" destination="Rl4-Zy-O10" id="ujb-rz-z7T"/>
+                        <outlet property="usernameTextField" destination="gn6-ku-uh1" id="6WQ-TC-VJr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="njZ-SY-hSN" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-25" y="24"/>
+        </scene>
+    </scenes>
+</document>
