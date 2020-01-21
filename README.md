@@ -10,3 +10,8 @@
 - Firebase
     - Remote Config
     - Json parse
+    
+- Random User Generator API https://randomuser.me/api/
+    - Json parse using APIKit
+    - Codable
+    
