@@ -68,13 +68,6 @@ extension RandomUserRequest {
     var baseURL: URL {
         return URL(string: "https://randomuser.me/api/")!
     }
-
-    func intercept(object: Any, urlResponse: HTTPURLResponse) throws -> Any {
-        guard (200..<300).contains(urlResponse.statusCode) else {
-            throw ResponseError.unacceptableStatusCode(urlResponse.statusCode)
-        }
-        return object
-    }
 }
 
 struct FetchRandomUserRequest: RandomUserRequest {
