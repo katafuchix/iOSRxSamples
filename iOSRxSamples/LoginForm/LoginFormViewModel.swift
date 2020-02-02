@@ -68,7 +68,7 @@ class LoginFormViewModel: LoginFormViewModelType, LoginFormViewModelInputs, Logi
         // そのObservableを出力用変数へ
         self.isValid = _isValid.asObservable()
         
-        // Actionのouputを内部変数にbind
+        // Actionのoutputを内部変数にbind
         self.validAction.elements
             .bind(to: _isValid)
             .disposed(by: self.disposeBag)
